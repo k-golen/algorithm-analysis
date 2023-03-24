@@ -70,5 +70,36 @@ $$O(m^2+n)$$
 
 <br />
 
+<br />
+
+Okazuje się, że analiza działania algorytmów i zmierzone czasy, odpowiadają obliczonym wartościom.
+<br />
+<p align="center">
+<kbd><img style="border:1px solid black;" src="https://github.com/k-golen/algorithm-analysis/blob/main/images/alg_dokladny.jpg?raw=true"/></kbd>
+</p>
+
+<sub> Rysunek 1. Czasy wykonywania algorytmu dokładnego przy pesymistycznych danych wejściowych. </sub>
+
+<br />
+
+Istnieją takie stałe parametry, które przy dodaniu do obliczonej złożoności, pozwalają ograniczyć zmierzone czasy od góry oraz od dołu. Oznacza to, że pesymistyczna złożoność czasowa **algorytmu dokładnego** została prawdopodobnie wyznaczona poprawnie.
+
+<br />
+
+<br />
+
+<p align="center">
+<kbd><img src="https://github.com/k-golen/algorithm-analysis/blob/main/images/alg_heurystyczny.jpg?raw=true" /></kbd>
+</p>
+
+<sub> Rysunek 2. Czasy wykonywania algorytmu heurystycznego przy losowych danych wejściowych. </sub>
+
+<br />
+
+Podobnie jak w poprzednim algorytmie, tutaj także istnieje możliwość wyznaczenia górnej i dolnej granicy. Co także oznacza, że pesymistyczna złożoność czasowa **algorytmu heurystycznego** została prawdopodobnie wyznaczona poprawnie.
 
 ### Przypisy
+
+1. Zbiór wewnętrznie stabilny, to zbiór wierzchołków grafu $G$, które tworzą podgraf pusty grafu $G$.
+2. WAK - Wyrażenie Alternatywno-Koniunkcyjne opisywane jako $\prod\sum$ np.: $(x_1+x_2)\times(x_2+x_3)$
+3. mfa - minimalna formuła alternatywna opisywana jako $\sum\prod$ np.: (przekształcenie z przypisu 2)  $(x_1+x_2)\times(x_2+x_3)=x_2+(x_1\times x_3)$
