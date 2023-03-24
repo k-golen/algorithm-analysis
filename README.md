@@ -1,7 +1,7 @@
 # Analiza algorytmów rozwiązujących problem kolorowania wierzchołków grafu
 
 ### Opis programu
-Program pomaga w określeniu złożoności algorytmu dokładnego, oraz algorytmu heurystycznego LF (Large First) kolorowania wierzchołków grafu, podając czasy działania dla zadanych danych wejściowych.
+Główna część programu to zaimplementowany algorytm dokładny, oraz algorytm heurystyczny LF (Large First) kolorowania wierzchołków grafu. Program  pomaga w określeniu złożoności wypisanych algorytmów, podając czasy działania dla zadanych danych wejściowych. Na podstawie licznych testów, określone zostały m.in. pesymistyczne złożoności czasowe wymienionych algorytmów, opisane w poniższym opisie.
 
 ### Kroki alogrytmu dokładnego
 1. Wyznaczenie wszystkich maksymalnych zbiorów wewnętrznie stabilnych \[[1](#przypisy)\]:
